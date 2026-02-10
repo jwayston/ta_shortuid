@@ -18,7 +18,7 @@ function convertToBase40(number) {
 		number = Math.floor(number / 40);
 	}
 
-	return result || charset[0];
+	return result || chartable[0];
 }
 
 const date = new Date();
