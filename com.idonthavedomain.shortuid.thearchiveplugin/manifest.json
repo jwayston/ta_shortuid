@@ -8,7 +8,7 @@
   "dependencies" : [
 
   ],
-  "description" : "The plugin generates a shorter note UID and inserts it after the text cursor.\n\nThe UID is generated following a \"YYMMDDxx\" format where\n- YY is year\n- MM is month\n- DD is days\n- xx is timestamp as seconds from the beginning of the day\ncompressed to a custom base40 format\n\nExample: `260210X5`",
+  "description" : "The plugin generates a shorter note UID and inserts it after the text cursor.\n\nThe UID is generated following a \"YYMMDDxx\" format where\n- YY is year\n- MM is month\n- DD is days\n- xx is timestamp as minutes from the beginning of the day\ncompressed to a custom base40 format\n\nExample: `260210X5`",
   "identifier" : "com.idonthavedomain.shortuid",
   "input" : {
     "notes" : [
