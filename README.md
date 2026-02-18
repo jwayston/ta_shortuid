@@ -1,4 +1,4 @@
-# Short UID plugin for "The Archive"
+# Short UID plugin for [The Archive](https://zettelkasten.de/the-archive/)
 
 The plugin generates a shorter note UID and inserts it after the text cursor.
 
