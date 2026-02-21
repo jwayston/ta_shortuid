@@ -27,7 +27,7 @@ const year = dstr.slice(2,4);
 const month = dstr.slice(5,7).toString();
 const day = dstr.slice(8,10);
 const timestampMinutes = (date.getHours() * 60) + date.getMinutes();
-const timestampMinutesB40 = convertToBase40(timestampMinutes);
+const timestampMinutesB40 = convertToBase40(timestampMinutes).padStart(2, "0");
 
 timestamp = `${year}${month}${day}${timestampMinutesB40}`;
 output.insert.text = timestamp;
