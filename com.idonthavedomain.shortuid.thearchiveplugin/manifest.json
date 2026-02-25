@@ -22,7 +22,7 @@
   "output" : {
     "insertText" : true
   },
-  "releaseDate" : "2026-02-21",
+  "releaseDate" : "2026-02-26",
   "title" : "Shortuid",
-  "version" : "0.0.2"
+  "version" : "0.0.3"
 }

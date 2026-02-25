@@ -22,7 +22,8 @@ function convertToBase40(number) {
 }
 
 const date = new Date();
-const dstr = date.toISOString()
+const localDate = new Date(date - (date.getTimezoneOffset() * 60000))
+const dstr = localDate.toISOString()
 const year = dstr.slice(2,4);
 const month = dstr.slice(5,7).toString();
 const day = dstr.slice(8,10);
